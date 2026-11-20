@@ -17,7 +17,6 @@ Trabajo Integrador Individual de **Modelos y Sistemas — 7mo Año** (Escuela T�
 - C# con Windows Forms (.NET 10)
 - SQL Server Express
 - Microsoft.Data.SqlClient
-- Programación orientada a objetos, arquitectura en 3 capas
 
 ## Requisitos
 
@@ -30,19 +29,6 @@ Trabajo Integrador Individual de **Modelos y Sistemas — 7mo Año** (Escuela T�
 2. Abrir `PanolEscolar.sln` en Visual Studio.
 3. Si el servidor SQL tiene otro nombre, cambiar la cadena de conexión en `CapaDatos/Conexion.cs`.
 4. Establecer `CapaPresentacion` como proyecto de inicio y ejecutar con F5.
-
-## Estructura del proyecto
-
-```
-├── PanolEscolar.sln
-├── CapaPresentacion/      Formulario (interfaz de usuario)
-├── CapaNegocio/           Reglas y validaciones
-├── CapaDatos/             Acceso a SQL Server
-│   └── Entidades/         Alumno, Herramienta, Prestamo, Historial
-├── BaseDeDatos/           Script de creación de la base
-├── Capturas/              Capturas de pantalla y diagramas
-└── Documentacion_TP_Panol_Escolar.pdf
-```
 
 ## Documentación
 
